@@ -1,5 +1,5 @@
 /*
- * Copyright 2013-2016 the original author or authors.
+ * Copyright 2013-2017 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,9 +34,9 @@ abstract class AbstractQuery implements Query {
 
 	protected Pageable pageable = DEFAULT_PAGE;
 	protected Sort sort;
-	protected List<String> indices = new ArrayList<String>();
-	protected List<String> types = new ArrayList<String>();
-	protected List<String> fields = new ArrayList<String>();
+	protected List<String> indices = new ArrayList<>();
+	protected List<String> types = new ArrayList<>();
+	protected List<String> fields = new ArrayList<>();
 	protected SourceFilter sourceFilter;
 	protected float minScore;
 	protected Collection<String> ids;
