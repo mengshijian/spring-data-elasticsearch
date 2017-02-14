@@ -15,7 +15,6 @@
  */
 package org.springframework.data.elasticsearch.client;
 
-import static org.elasticsearch.node.NodeBuilder.*;
 
 import java.io.InputStream;
 import org.apache.commons.lang.StringUtils;
